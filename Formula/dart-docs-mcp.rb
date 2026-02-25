@@ -1,14 +1,14 @@
 class DartDocsMcp < Formula
   desc "MCP server for Dart documentation"
   homepage "https://github.com/alfredobs97/dart_docs_mcp"
-  version "0.0.1"
+  version "0.0.2"
 
   if OS.mac?
-    url "https://github.com/alfredobs97/dart_docs_mcp/releases/download/0.0.1/dart-docs-mcp-macos.tar.gz"
-    sha256 "f10c4bde30f9f0db7e1f9fe9da6cce022826c8fc25a6e1ca19eeb1ab1f7f91ee"
+    url "https://github.com/alfredobs97/dart_docs_mcp/releases/download/0.0.2/dart-docs-mcp-macos.tar.gz"
+    sha256 "97bb24f525f76b0a605c42373617a9aac809e409eb31099753301d0309e06a2c"
   elsif OS.linux?
-    url "https://github.com/alfredobs97/dart_docs_mcp/releases/download/0.0.1/dart-docs-mcp-linux.tar.gz"
-    sha256 "6af64a3c94bade4499d5395616818fc984c3ed3969ece06d165163115ea9113e"
+    url "https://github.com/alfredobs97/dart_docs_mcp/releases/download/0.0.2/dart-docs-mcp-linux.tar.gz"
+    sha256 "5696977ac78cc73edbe1def8b246fc6c03d9dda2ea8e05a7a46aa69ce057ef8a"
   end
 
   def install
